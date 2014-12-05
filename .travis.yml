@@ -1,0 +1,15 @@
+language: python
+python:
+- 3.3
+- 3.4
+
+install:
+- pip install coverage
+- pip install coveralls
+- pip install pep8
+- pip install -r requirements.txt
+script:
+- pep8 luiza_labs --ignore=E501
+- nosetests tests --with-coverage --cover-package=luiza_labs
+after_success:
+- coveralls
