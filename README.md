@@ -4,6 +4,10 @@ Esse repositório tem o propósito de apresentar a solução do desafio técnico
 [![Build Status](https://travis-ci.org/drgarcia1986/desafio-luiza-labs.png)](http://travis-ci.org/drgarcia1986/desafio-luiza-labs)
 [![Coverage Status](https://coveralls.io/repos/drgarcia1986/desafio-luiza-labs/badge.png)](https://coveralls.io/r/drgarcia1986/desafio-luiza-labs)
 
+### Frameworks utilizados
+* Tornado
+* SQLAlchemy
+
 ### Pré requisitos
 #### Mysql
 Se optar pelo modo de uso MySql, será necessária uma instância do MySql rodando com algum schema destinado a aplicação, uma sugestão seria um schema chamado **luizalabs**.
